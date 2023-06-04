@@ -2,7 +2,7 @@ import Card from "react-bootstrap/Card";
 import super_chess_image from "../super_chess_image.png";
 
 const SuperChess = () => (
-    <div>
+    <>
         <Card className="h-100" style={{width: "20rem"}}>
             <Card.Img src={super_chess_image} />
             <Card.Body>
@@ -19,7 +19,7 @@ const SuperChess = () => (
                 </Card.Link>
             </Card.Body>
         </Card>
-    </div>
+    </>
 );
 
 export default SuperChess;

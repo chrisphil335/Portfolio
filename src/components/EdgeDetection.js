@@ -2,7 +2,7 @@ import Card from "react-bootstrap/Card";
 import edge_detection_image from "../edge_detection_image.png";
 
 const EdgeDetection = () => (
-    <div>
+    <>
         <Card className="h-100" style={{width: "20rem"}}>
             <Card.Img src={edge_detection_image} />
             <Card.Body>
@@ -16,7 +16,7 @@ const EdgeDetection = () => (
                 </Card.Text>
             </Card.Body>
         </Card>
-    </div>
+    </>
 );
 
 export default EdgeDetection;

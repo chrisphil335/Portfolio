@@ -1,15 +1,14 @@
-
+const frameworks = ["React", "Bootstrap", "Flask", "Ursina"];
 
 const Frameworks = () => (
-    <div>
+    <>
         <h2>Frameworks/Libraries</h2>
         <ul>
-            <li>React</li>
-            <li>Bootstrap</li>
-            <li>Flask</li>
-            <li>Ursina</li>
+            {frameworks.map((item) => (
+                <li key={item}>{item}</li>
+            ))}
         </ul>
-    </div>
+    </>
 );
 
 export default Frameworks;

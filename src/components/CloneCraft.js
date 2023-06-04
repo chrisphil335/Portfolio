@@ -2,7 +2,7 @@ import Card from "react-bootstrap/Card";
 import clonecraft_image from "../clonecraft_image.png";
 
 const CloneCraft = () => (
-    <div>
+    <>
         <Card className="h-100" style={{width: "20rem"}}>
             <Card.Img src={clonecraft_image} />
             <Card.Body>
@@ -17,7 +17,7 @@ const CloneCraft = () => (
                 </Card.Text>
             </Card.Body>
         </Card>
-    </div>
+    </>
 );
 
 export default CloneCraft;

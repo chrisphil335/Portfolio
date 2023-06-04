@@ -1,16 +1,14 @@
-
+const languages = ["Python", "C", "HTML/CSS/JavaScript", "Java", "Assembly"];
 
 const Languages = () => (
-    <div>
+    <>
         <h2>Languages</h2>
         <ul>
-            <li>Python</li>
-            <li>C</li>
-            <li>HTML/CSS/JavaScript</li>
-            <li>Java</li>
-            <li>Assembly</li>
+            {languages.map((item) => (
+                <li key={item}>{item}</li>
+            ))}
         </ul>
-    </div>
+    </>
 );
 
 export default Languages;

@@ -2,7 +2,7 @@ import Card from "react-bootstrap/Card";
 import image_compression_image from "../image_compression_image.png";
 
 const ImageCompression = () => (
-    <div>
+    <>
         <Card className="h-100" style={{width: "20rem"}}>
             <Card.Img src={image_compression_image} />
             <Card.Body>
@@ -17,7 +17,7 @@ const ImageCompression = () => (
                 </Card.Text>
             </Card.Body>
         </Card>
-    </div>
+    </>
 );
 
 export default ImageCompression;

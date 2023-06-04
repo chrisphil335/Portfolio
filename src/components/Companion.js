@@ -2,7 +2,7 @@ import Card from "react-bootstrap/Card";
 import companion_image from "../companion_image.png";
 
 const Companion = () => (
-    <div>
+    <>
         <Card className="h-100" style={{width: "20rem"}}>
             <Card.Img src={companion_image} />
             <Card.Body>
@@ -26,7 +26,7 @@ const Companion = () => (
                 </Card.Link>
             </Card.Body>
         </Card>
-    </div>
+    </>
 );
 
 export default Companion;
