@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/portfolio/static/js/main.6e72c9d2.js",
+    "main.js": "/portfolio/static/js/main.862fd7d2.js",
     "static/media/art.jpg": "/portfolio/static/media/art.c4360b4081da5490d7b3.jpg",
     "static/media/edge_detection_image.png": "/portfolio/static/media/edge_detection_image.dfe099b8604be4237ef0.png",
     "static/media/clonecraft_image.png": "/portfolio/static/media/clonecraft_image.90de57f69ff0b1be339f.png",
@@ -10,9 +10,9 @@
     "static/media/companion_image.png": "/portfolio/static/media/companion_image.f02ba3a378a584074706.png",
     "static/media/super_chess_image.png": "/portfolio/static/media/super_chess_image.9273c551553d80bb071f.png",
     "index.html": "/portfolio/index.html",
-    "main.6e72c9d2.js.map": "/portfolio/static/js/main.6e72c9d2.js.map"
+    "main.862fd7d2.js.map": "/portfolio/static/js/main.862fd7d2.js.map"
   },
   "entrypoints": [
-    "static/js/main.6e72c9d2.js"
+    "static/js/main.862fd7d2.js"
   ]
 }
