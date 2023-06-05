@@ -1,5 +1,5 @@
 import Button from "react-bootstrap/Button";
-import art from "../art.jpg";
+import art from "../art_image.jpg";
 
 const About = () => (
     <>
