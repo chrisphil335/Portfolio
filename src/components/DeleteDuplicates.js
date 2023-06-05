@@ -3,8 +3,8 @@ import deduplicate_image from "../deduplicate_image.png";
 
 const DeleteDuplicates = () => (
     <>
-        <Card className="h-100" style={{width: "20rem"}}>
-            <Card.Img width="500" src={deduplicate_image} />
+        <Card>
+            <Card.Img src={deduplicate_image} />
             <Card.Body>
                 <Card.Title>Delete Duplicates</Card.Title>
                 <Card.Subtitle>Spotify web app</Card.Subtitle>

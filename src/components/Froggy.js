@@ -3,7 +3,7 @@ import froggy_image from "../froggy_image.png";
 
 const Froggy = () => (
     <>
-        <Card className="h-100" style={{width: "20rem"}}>
+        <Card>
             <Card.Img src={froggy_image} />
             <Card.Body>
                 <Card.Title>Froggy</Card.Title>

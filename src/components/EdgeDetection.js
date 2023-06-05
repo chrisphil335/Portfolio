@@ -3,7 +3,7 @@ import edge_detection_image from "../edge_detection_image.png";
 
 const EdgeDetection = () => (
     <>
-        <Card className="h-100" style={{width: "20rem"}}>
+        <Card>
             <Card.Img src={edge_detection_image} />
             <Card.Body>
                 <Card.Title>Edge Detection</Card.Title>

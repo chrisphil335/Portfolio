@@ -3,7 +3,7 @@ import clonecraft_image from "../clonecraft_image.png";
 
 const CloneCraft = () => (
     <>
-        <Card className="h-100" style={{width: "20rem"}}>
+        <Card>
             <Card.Img src={clonecraft_image} />
             <Card.Body>
                 <Card.Title>CloneCraft</Card.Title>

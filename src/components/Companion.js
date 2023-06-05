@@ -3,7 +3,7 @@ import companion_image from "../companion_image.png";
 
 const Companion = () => (
     <>
-        <Card className="h-100" style={{width: "20rem"}}>
+        <Card>
             <Card.Img src={companion_image} />
             <Card.Body>
                 <Card.Title>Companion</Card.Title>

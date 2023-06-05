@@ -3,7 +3,7 @@ import image_compression_image from "../image_compression_image.png";
 
 const ImageCompression = () => (
     <>
-        <Card className="h-100" style={{width: "20rem"}}>
+        <Card>
             <Card.Img src={image_compression_image} />
             <Card.Body>
                 <Card.Title>Image Compression</Card.Title>

@@ -3,7 +3,7 @@ import super_chess_image from "../super_chess_image.png";
 
 const SuperChess = () => (
     <>
-        <Card className="h-100" style={{width: "20rem"}}>
+        <Card>
             <Card.Img src={super_chess_image} />
             <Card.Body>
                 <Card.Title>Super Chess</Card.Title>
